@@ -13,3 +13,4 @@ set -gx GOPATH ~/.go
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias sysinfo='python ~/devl/scripts/sys_overview.py'
+alias tomatoshell="tomatoshell -p p -f"
