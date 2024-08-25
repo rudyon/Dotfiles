@@ -7,6 +7,8 @@ cp -rv ~/.config/hypr ~/devl/dotfiles/.config
 cp -rv ~/.config/kitty ~/devl/dotfiles/.config
 cp -rv ~/.config/fish ~/devl/dotfiles/.config
 cp -rv ~/.config/nvim ~/devl/dotfiles/.config
+cp -rv ~/.config/ranger ~/devl/dotfiles/.config
+cp -rv ~/.config/wofi ~/devl/dotfiles/.config
 
 # Navigate to the dotfiles directory
 cd ~/devl/dotfiles
