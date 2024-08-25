@@ -8,3 +8,6 @@ require('telescope').setup({})
 
 require('mason').setup({})
 	vim.keymap.set('n', '<leader>mm', ':Mason<cr>', {})
+
+local hop = require('hop')
+	vim.keymap.set('n', 'f', function() hop.hint_char1({}) end, {remap=true})
